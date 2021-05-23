@@ -26,7 +26,7 @@ face = """""
 	"""
 print(bcolors.HEADER + face)
 payload = "https://insta-node.herokuapp.com/_validate_username?username="
-w = raw_input(bcolors.OKBLUE+ ('Enter UserList: '))
+w = input(bcolors.OKBLUE+ ('Enter UserList: '))
 wordlist = open(w, "r")
 
 for awa in wordlist:
